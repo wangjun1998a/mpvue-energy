@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/overview/main",
+    "pages/energy/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0098F5",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "van-image": "/static/vant/image/index",
+    "van-icon": "/static/vant/icon/index",
+    "van-button": "/static/vant/button/index",
+    "van-popup": "/static/vant/popup/index",
+    "van-picker": "/static/vant/picker/index",
+    "van-datetime-picker": "/static/vant/datetime-picker/index",
+    "van-tab": "/static/vant/tab/index",
+    "van-tabs": "/static/vant/tabs/index"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/overview/main",
+        "text": "概览",
+        "iconPath": "/static/tabs/home.png",
+        "selectedIconPath": "/static/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/energy/main",
+        "text": "能效",
+        "iconPath": "/static/tabs/orders.png",
+        "selectedIconPath": "/static/tabs/orders-active.png"
+      }
+    ]
+  }
+}
